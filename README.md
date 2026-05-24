@@ -9,6 +9,10 @@
 *   **Genuimaps Integration:** Seamless access to Geniymaps with premium maps unlocked for better navigation and tracking.
 *   **Lightweight & Fast:** Low resource consumption compared to opening multiple browser tabs.
 *   **Built in Adblocker** Experience zero ads while navigating.
+*   **always on top** So you can pin your wiki while gaming
+
+##Screenshots
+<img width="1366" height="726" alt="image" src="https://github.com/user-attachments/assets/40d35a54-d8ea-42e3-be4f-dc098e828d52" /> <img width="1366" height="729" alt="image" src="https://github.com/user-attachments/assets/6d6ab897-ee2e-458f-acb7-59caa51082ec" />
 
 ## 🚀 How to Download & Install
 
@@ -18,7 +22,7 @@
 4. Enjoy a bloat-free gaming wiki experience!
 
 ## 🛠️ Built With
-*   [Electron]
+*   [Electron,Javascript]
 
 ## 📜 License
 This project is open-source and available under the MIT License.
