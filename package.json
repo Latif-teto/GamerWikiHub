@@ -1,0 +1,49 @@
+{
+  "name": "gamerwikhub",
+  "version": "1.0.0",
+  "description": "A lightweight, ad-free unified gaming wiki browser",
+  "main": "main.js",
+  "author": "GamerWikiHub",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "dist:win": "electron-builder --win",
+    "dist:mac": "electron-builder --mac",
+    "dist:linux": "electron-builder --linux"
+  },
+  "dependencies": {
+    "@ghostery/adblocker-electron": "^2.5.0"
+  },
+  "devDependencies": {
+    "electron": "^35.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "com.gamerwikhub.app",
+    "productName": "GamerWikiHub",
+    "copyright": "Copyright © 2025 GamerWikiHub",
+    "asar": true,
+    "files": [
+      "**/*",
+      "!**/*.map",
+      "!node_modules/.cache/**"
+    ],
+    "mac": {
+      "category": "public.app-category.games",
+      "target": [{ "target": "dmg", "arch": ["x64", "arm64"] }]
+    },
+    "win": {
+      "target": [{ "target": "nsis", "arch": ["x64"] }],
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "linux": {
+      "target": [{ "target": "AppImage", "arch": ["x64"] }],
+      "category": "Game"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
