@@ -11,8 +11,10 @@
 *   **Built in Adblocker** Experience zero ads while navigating.
 *   **always on top** So you can pin your wiki while gaming
 
-##Screenshots
-<img width="1366" height="726" alt="image" src="https://github.com/user-attachments/assets/40d35a54-d8ea-42e3-be4f-dc098e828d52" /> <img width="1366" height="729" alt="image" src="https://github.com/user-attachments/assets/6d6ab897-ee2e-458f-acb7-59caa51082ec" />
+## Screenshots
+
+<img width="1366" height="726" alt="image" src="https://github.com/user-attachments/assets/40d35a54-d8ea-42e3-be4f-dc098e828d52" /> 
+<img width="1365" height="724" alt="image" src="https://github.com/user-attachments/assets/1ec3f4f8-0d0e-4870-b05c-3d08a45ac62f" />
 
 ## 🚀 How to Download & Install
 
